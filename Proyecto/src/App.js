@@ -2,7 +2,7 @@ import React from 'react';
 import { Navigate } from 'react-router-dom';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import TopNavBar from './components/TopNavBar';
-import Footer from './components/footer';
+import Footer from './components/Footer';
 import Home from './pages/Home';
 
 const items = []; // Vacío por ahora, pero se verá texto
