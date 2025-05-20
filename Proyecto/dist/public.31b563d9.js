@@ -40596,36 +40596,62 @@ var _cardItemDefault = parcelHelpers.interopDefault(_cardItem);
 function Home({ items }) {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "container bg-primary text-white py-5",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "row",
-            children: items.length > 0 ? items.map((item, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "col-md-4 mb-4",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cardItemDefault.default), {
-                        title: item.title,
-                        description: item.description
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "mb-4 text-center",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        className: "fw-bold",
+                        children: "Bienvenidos a CTL Empresariales"
                     }, void 0, false, {
                         fileName: "src/pages/Home.js",
-                        lineNumber: 10,
-                        columnNumber: 29
+                        lineNumber: 8,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: "Brindamos soluciones personalizadas con experiencia fiscal y administrativa."
+                    }, void 0, false, {
+                        fileName: "src/pages/Home.js",
+                        lineNumber: 9,
+                        columnNumber: 17
                     }, this)
-                }, index, false, {
+                ]
+            }, void 0, true, {
+                fileName: "src/pages/Home.js",
+                lineNumber: 7,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "row",
+                children: items.length > 0 ? items.map((item, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "col-md-4 mb-4",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cardItemDefault.default), {
+                            title: item.title,
+                            description: item.description
+                        }, void 0, false, {
+                            fileName: "src/pages/Home.js",
+                            lineNumber: 18,
+                            columnNumber: 29
+                        }, this)
+                    }, index, false, {
+                        fileName: "src/pages/Home.js",
+                        lineNumber: 17,
+                        columnNumber: 25
+                    }, this)) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                    className: "text-center",
+                    children: "CTL EMPRESARIALES OFRECE A SUS CLIENTES UN ENFOQUE PERSONALIZADO, PROFUNDO CONOCIMIENTO DEL ENTORNO FISCAL Y UN EQUIPO CON EXPERIENCIA EN LA ADMINISTRACI\xd3N TRIBUTARIA"
+                }, void 0, false, {
                     fileName: "src/pages/Home.js",
-                    lineNumber: 9,
-                    columnNumber: 25
-                }, this)) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                className: "text-center",
-                children: "CTL EMPRESARIALES OFRECE A SUS CLIENTES UN ENFOQUE PERSONALIZADO, PROFUNDO CONOCIMIENTO DEL ENTORNO FISCAL Y UN EQUIPO CON EXPERIENCIA EN LA ADMINISTRACI\xd3N TRIBUTARIA"
+                    lineNumber: 25,
+                    columnNumber: 21
+                }, this)
             }, void 0, false, {
                 fileName: "src/pages/Home.js",
-                lineNumber: 17,
-                columnNumber: 21
+                lineNumber: 14,
+                columnNumber: 13
             }, this)
-        }, void 0, false, {
-            fileName: "src/pages/Home.js",
-            lineNumber: 6,
-            columnNumber: 13
-        }, this)
-    }, void 0, false, {
+        ]
+    }, void 0, true, {
         fileName: "src/pages/Home.js",
         lineNumber: 5,
         columnNumber: 9
