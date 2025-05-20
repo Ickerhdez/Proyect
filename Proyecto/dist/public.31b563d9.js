@@ -16178,7 +16178,7 @@ $RefreshReg$(_c, "App");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-router-dom":"61z4w","./components/TopNavBar":"Gs9LT","./pages/Home":"4vy7i","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./components/Footer":"lq1kZ"}],"61z4w":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-router-dom":"61z4w","./components/TopNavBar":"Gs9LT","./components/Footer":"lq1kZ","./pages/Home":"4vy7i","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"61z4w":[function(require,module,exports,__globalThis) {
 /**
  * React Router DOM v6.30.0
  *
@@ -23450,6 +23450,8 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _gr = require("react-icons/gr");
+var _logoCTLJpg = require("../assets/images/LogoCTL.jpg"); // Importa tu logo
+var _logoCTLJpgDefault = parcelHelpers.interopDefault(_logoCTLJpg);
 function TopNavBar() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
         className: "navbar navbar-expand-lg bg-body-tertiary",
@@ -23459,11 +23461,22 @@ function TopNavBar() {
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                     className: "navbar-brand",
                     href: "#",
-                    children: "CTL EMPRESARIAL"
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        src: (0, _logoCTLJpgDefault.default),
+                        alt: "Logo CTL Empresarial",
+                        style: {
+                            height: "40px",
+                            width: "auto"
+                        }
+                    }, void 0, false, {
+                        fileName: "src/components/TopNavBar.js",
+                        lineNumber: 9,
+                        columnNumber: 3
+                    }, this)
                 }, void 0, false, {
                     fileName: "src/components/TopNavBar.js",
-                    lineNumber: 7,
-                    columnNumber: 9
+                    lineNumber: 8,
+                    columnNumber: 8
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
                     className: "navbar-toggler",
@@ -23477,12 +23490,12 @@ function TopNavBar() {
                         className: "navbar-toggler-icon"
                     }, void 0, false, {
                         fileName: "src/components/TopNavBar.js",
-                        lineNumber: 17,
+                        lineNumber: 25,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "src/components/TopNavBar.js",
-                    lineNumber: 8,
+                    lineNumber: 16,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -23498,15 +23511,15 @@ function TopNavBar() {
                                         className: "nav-link active",
                                         "aria-current": "page",
                                         href: "home",
-                                        children: "Inio"
+                                        children: "Inicio"
                                     }, void 0, false, {
                                         fileName: "src/components/TopNavBar.js",
-                                        lineNumber: 22,
+                                        lineNumber: 30,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "src/components/TopNavBar.js",
-                                    lineNumber: 21,
+                                    lineNumber: 29,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -23517,12 +23530,12 @@ function TopNavBar() {
                                         children: "Seminarios"
                                     }, void 0, false, {
                                         fileName: "src/components/TopNavBar.js",
-                                        lineNumber: 25,
+                                        lineNumber: 33,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "src/components/TopNavBar.js",
-                                    lineNumber: 24,
+                                    lineNumber: 32,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -23537,7 +23550,7 @@ function TopNavBar() {
                                             children: "Home"
                                         }, void 0, false, {
                                             fileName: "src/components/TopNavBar.js",
-                                            lineNumber: 28,
+                                            lineNumber: 36,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -23548,39 +23561,39 @@ function TopNavBar() {
                                                         className: "dropdown-divider"
                                                     }, void 0, false, {
                                                         fileName: "src/components/TopNavBar.js",
-                                                        lineNumber: 38,
-                                                        columnNumber: 37
+                                                        lineNumber: 46,
+                                                        columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "src/components/TopNavBar.js",
-                                                    lineNumber: 38,
-                                                    columnNumber: 33
+                                                    lineNumber: 46,
+                                                    columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                                         className: "dropdown-item",
                                                         href: "#",
-                                                        children: "agregar info"
+                                                        children: "Agregar info"
                                                     }, void 0, false, {
                                                         fileName: "src/components/TopNavBar.js",
-                                                        lineNumber: 39,
+                                                        lineNumber: 47,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "src/components/TopNavBar.js",
-                                                    lineNumber: 39,
+                                                    lineNumber: 47,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/components/TopNavBar.js",
-                                            lineNumber: 37,
+                                            lineNumber: 45,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/TopNavBar.js",
-                                    lineNumber: 27,
+                                    lineNumber: 35,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -23591,18 +23604,18 @@ function TopNavBar() {
                                         children: "Disabled"
                                     }, void 0, false, {
                                         fileName: "src/components/TopNavBar.js",
-                                        lineNumber: 43,
+                                        lineNumber: 51,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "src/components/TopNavBar.js",
-                                    lineNumber: 42,
+                                    lineNumber: 50,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/TopNavBar.js",
-                            lineNumber: 20,
+                            lineNumber: 28,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
@@ -23616,7 +23629,7 @@ function TopNavBar() {
                                     "aria-label": "Search"
                                 }, void 0, false, {
                                     fileName: "src/components/TopNavBar.js",
-                                    lineNumber: 47,
+                                    lineNumber: 55,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -23625,30 +23638,30 @@ function TopNavBar() {
                                     children: "Search"
                                 }, void 0, false, {
                                     fileName: "src/components/TopNavBar.js",
-                                    lineNumber: 48,
+                                    lineNumber: 56,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/TopNavBar.js",
-                            lineNumber: 46,
+                            lineNumber: 54,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/TopNavBar.js",
-                    lineNumber: 19,
+                    lineNumber: 27,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "src/components/TopNavBar.js",
-            lineNumber: 6,
+            lineNumber: 7,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "src/components/TopNavBar.js",
-        lineNumber: 5,
+        lineNumber: 6,
         columnNumber: 5
     }, this);
 }
@@ -23662,7 +23675,7 @@ $RefreshReg$(_c, "TopNavBar");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react-icons/gr":"4WpKM","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"4WpKM":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react-icons/gr":"4WpKM","../assets/images/LogoCTL.jpg":"khkt4","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"4WpKM":[function(require,module,exports,__globalThis) {
 // THIS FILE IS AUTO GENERATED
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
@@ -38302,7 +38315,7 @@ var DefaultContext = {
 };
 var IconContext = (0, _reactDefault.default).createContext && /*#__PURE__*/ (0, _reactDefault.default).createContext(DefaultContext);
 
-},{"react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"7h6Pi":[function(require,module,exports,__globalThis) {
+},{"react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"khkt4":[function() {},{}],"7h6Pi":[function(require,module,exports,__globalThis) {
 "use strict";
 var Refresh = require("7422ead32dcc1e6b");
 function debounce(func, delay) {
@@ -40580,7 +40593,45 @@ function $da9882e673ac146b$var$ErrorOverlay() {
     return null;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"4vy7i":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"lq1kZ":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$a646 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$a646.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$a646.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+function Footer() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
+        className: "bg-dark text-white text-center py-3 mt-5",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+            className: "mb-0",
+            children: "\xa9 2025 aca va el FROZEN."
+        }, void 0, false, {
+            fileName: "src/components/Footer.js",
+            lineNumber: 4,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "src/components/Footer.js",
+        lineNumber: 3,
+        columnNumber: 5
+    }, this);
+}
+_c = Footer;
+exports.default = Footer;
+var _c;
+$RefreshReg$(_c, "Footer");
+
+  $parcel$ReactRefreshHelpers$a646.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"4vy7i":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$20c5 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$20c5.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -40730,44 +40781,6 @@ var _c;
 $RefreshReg$(_c, "Carditem");
 
   $parcel$ReactRefreshHelpers$5ebb.postlude(module);
-} finally {
-  globalThis.$RefreshReg$ = prevRefreshReg;
-  globalThis.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"lq1kZ":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$a646 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-$parcel$ReactRefreshHelpers$a646.init();
-var prevRefreshReg = globalThis.$RefreshReg$;
-var prevRefreshSig = globalThis.$RefreshSig$;
-$parcel$ReactRefreshHelpers$a646.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-function Footer() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
-        className: "bg-dark text-white text-center py-3 mt-5",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-            className: "mb-0",
-            children: "\xa9 2025 aca va el FROZEN."
-        }, void 0, false, {
-            fileName: "src/components/Footer.js",
-            lineNumber: 4,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "src/components/Footer.js",
-        lineNumber: 3,
-        columnNumber: 5
-    }, this);
-}
-_c = Footer;
-exports.default = Footer;
-var _c;
-$RefreshReg$(_c, "Footer");
-
-  $parcel$ReactRefreshHelpers$a646.postlude(module);
 } finally {
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;

@@ -1,10 +1,18 @@
 import { GrUser } from "react-icons/gr";
+import LogoCTL from "../assets/images/LogoCTL.jpg"; // Importa tu logo
 
 function TopNavBar() {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">CTL EMPRESARIAL</a>
+       <a className="navbar-brand" href="#">
+  <img
+    src={LogoCTL}
+    alt="Logo CTL Empresarial"
+    style={{ height: "40px", width: "auto" }}
+  />
+</a>
+
         <button
           className="navbar-toggler"
           type="button"
@@ -19,7 +27,7 @@ function TopNavBar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="home">Inio</a>
+              <a className="nav-link active" aria-current="page" href="home">Inicio</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">Seminarios</a>
@@ -32,11 +40,11 @@ function TopNavBar() {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Home 
+                Home
               </a>
               <ul className="dropdown-menu">
-                                <li><hr className="dropdown-divider" /></li>
-                <li><a className="dropdown-item" href="#">agregar info</a></li>
+                <li><hr className="dropdown-divider" /></li>
+                <li><a className="dropdown-item" href="#">Agregar info</a></li>
               </ul>
             </li>
             <li className="nav-item">
